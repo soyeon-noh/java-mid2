@@ -4,6 +4,7 @@ public class BoxMain3 {
 
     public static void main(String[] args) {
         // 생성 시점에 T의 타입이 결정됨
+        // 타입 인자(여기서 Integer) : 제네릭 타입을 사용할 때 정의됨
         GenericBox<Integer> integerBox = new GenericBox<Integer>();
         integerBox.set(10);
 //        integerBox.set("100"); // Integer 타입만 허용, 컴파일 오류
